@@ -73,7 +73,7 @@ For example we've configured the server(laravel-lighthouse) to have a depth of 4
 
 ## Query Complexity
 A common strategy is to give the query a complexity of `1`, so in this example, we have a total of `3` complexity. If we have set the query complexity to `2`, this would fail.
-```
+```graphql
 query {
   author(id: "abc") { # complexity: 1
     posts {           # complexity: 1
